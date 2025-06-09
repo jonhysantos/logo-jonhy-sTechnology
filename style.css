@@ -40,7 +40,7 @@ svg .core circle:first-child{
 }
 
 svg .ring ellipse {
-    stroke: #00fd33;
+    stroke: #f000fd;
     stroke-width: 2px;
     fill: none;
     transform-origin: center;
