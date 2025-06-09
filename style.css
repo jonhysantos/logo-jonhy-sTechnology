@@ -8,6 +8,16 @@ body {
 
 .container{
     display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+.logo{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -18,11 +28,7 @@ svg{
     overflow: visible;
 }
 
-svg .shadow{
-    filter: url(#blur);
-    fill: #2a3e4d;
-    opacity: 0.4;
-}
+
 
 svg .core{
     fill: url(#gradient);
@@ -107,4 +113,18 @@ svg .ring:nth-child(3) ellipse:nth-child(3){
 .logo {
     animation: logo-spin infinite 10s linear;
   }
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.title h1,p{
+    font-family: "Roboto", sans-serif;
+    padding: 2px;
+    margin: 2px;
+    font-weight: 300;
 }
